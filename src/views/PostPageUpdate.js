@@ -41,13 +41,13 @@ export default function PostPageUpdate() {
   return (
     <div>
       <Navbar variant="light" bg="light">
-        <Container>
-          <Navbar.Brand href="/">Tinkergram</Navbar.Brand>
-          <Nav>
-            <Nav.Link href="/add">New Post</Nav.Link>
-            <Nav.Link href="/add">🚪</Nav.Link>
-          </Nav>
-        </Container>
+          <Container>
+              <Navbar.Brand href="/">Stinkergram</Navbar.Brand>
+              <Nav>
+                  <Nav.Link href="/add">New Post</Nav.Link>
+                  <Nav.Link onClick={(e) => signOut(auth)}>🚪</Nav.Link>
+              </Nav>
+          </Container>
       </Navbar>
       <Container>
         <h1 style={{ marginBlock: "1rem" }}>Update Post</h1>

@@ -34,11 +34,11 @@ export default function PostPageAdd() {
         <>
             <Navbar variant="light" bg="light">
                 <Container>
-                    <Navbar.Brand href="/">Tinkergram</Navbar.Brand>
-                        <Nav>
-                            <Nav.Link href="/add">New Post</Nav.Link>
-                            <Nav.Link onClick={(e) => signOut(auth)}>🚪</Nav.Link>
-                        </Nav>
+                    <Navbar.Brand href="/">Stinkergram</Navbar.Brand>
+                    <Nav>
+                        <Nav.Link href="/add">New Post</Nav.Link>
+                        <Nav.Link onClick={(e) => signOut(auth)}>🚪</Nav.Link>
+                    </Nav>
                 </Container>
             </Navbar>
             <Container>
